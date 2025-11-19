@@ -14,7 +14,6 @@ class Algoritma:
         Kompleksitas Waktu: O(n^2)
         Kompleksitas Ruang Tambahan: O(1)
         """
-        oprasi_tukar = 0
         for i in range(len(arr)):
             min_index = i
             for j in range(i + 1, len(arr)):
@@ -22,9 +21,7 @@ class Algoritma:
                     min_index = j
             # Operasi tukar (swap) terjadi in-place
             arr[i], arr[min_index] = arr[min_index], arr[i]
-            oprasi_tukar += 1
-            print(f"Oprasi ke-{oprasi_tukar} => {arr[min_index], arr[i]} <- {arr[i], arr[min_index]}")
-
+            
     def bubble_sort(arr):
         """
         Implementasi Bubble Sort dari Praktikum 1 [cite: 163-173].
@@ -42,7 +39,6 @@ class Algoritma:
         Kompleksitas Waktu: O(n^2) (Worst Case)
         Kompleksitas Ruang Tambahan: O(1)
         """
-        iterasi = 0
         for i in range(1, len(arr)):
             key = arr[i]
             j = i - 1
@@ -52,8 +48,6 @@ class Algoritma:
                 j -= 1
             # Tempatkan key di posisi yang benar
             arr[j + 1] = key
-            iterasi += 0
-            print(f"Oprasi ke-{iterasi} => {key} <- {arr[j+1]}")
 
     def merge_sort(self, arr):
         """
