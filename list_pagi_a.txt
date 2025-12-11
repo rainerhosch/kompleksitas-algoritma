@@ -1,6 +1,9 @@
 # Data laki-laki
-data_laki_laki = [
+data_join_kelas_lain = [
     "241351017 MUHAMMAD RIZQI",
+]
+
+data_laki_laki = [
     "241351096 AZRIL ANGGRA ATMOKO",
     "241351104 DAVA HAIKAL DAWWAS",
     "241351107 DEDE GUNAWAN",
