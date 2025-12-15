@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+UAS/*.docx
+
 # C extensions
 *.so
 src
